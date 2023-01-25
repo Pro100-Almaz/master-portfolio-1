@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+}
+
+body {
+  margin: 70px 21.3%;
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+}
+
+/* FIRST BLOCK */
+.self-info {
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 33px;
+  padding: 22px;
+  margin-bottom: 42px;
+}
+
+.self-info img {
+  max-width: 271px;
+  max-height: 271px;
+  border-radius: 12px;
+}
+
+.self-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.short-letter {
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.self-contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4f4f4f;
+  margin-bottom: 6px;
+}
+
+.stack {
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.email {
+  color: #4f4f4f;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.number {
+  color: #4f4f4f;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* FROM SECOND TO FIFTH BLOCK */
+
+.self-skills {
+  display: grid;
+  grid-template-columns: 40% 57%;
+  /* display: grid; */
+  /* grid-template-columns: 40% 57%;
+  grid-template-rows: 1fr 1fr;*/
+  grid-row: 2;
+  row-gap: 42px;
+  column-gap: 35px;
+}
+
+.knowledge {
+  max-width: 100%;
+  max-height: 303px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 22px;
+}
+
+.knowledge p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+.knowledge-header {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 17px;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-row: 2;
+  margin-bottom: 17px;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #c4c4c4;
+  border-radius: 12px;
+  height: 10px;
+}
+
+.skill-vue {
+  text-align: right; /* Right-align text */
+  border-radius: 12px;
+  height: 10px;
+  width: 40%;
+  background-color: #2f80ed;
+}
+
+.skill-js {
+  text-align: right; /* Right-align text */
+  border-radius: 12px;
+  height: 10px;
+  width: 65%;
+  background-color: #2f80ed;
+}
+
+.skill-html-css {
+  text-align: right; /* Right-align text */
+  border-radius: 12px;
+  height: 10px;
+  width: 85%;
+  background-color: #2f80ed;
+}
+
+.skill-python {
+  text-align: right; /* Right-align text */
+  border-radius: 12px;
+  height: 10px;
+  width: 90%;
+  background-color: #2f80ed;
+}
+
+.skill-django {
+  text-align: right; /* Right-align text */
+  border-radius: 12px;
+  height: 10px;
+  width: 60%;
+  background-color: #2f80ed;
+}
+
+.skill-cpp {
+  text-align: right; /* Right-align text */
+  border-radius: 12px;
+  height: 10px;
+  width: 70%;
+  background-color: #2f80ed;
+}
+
+.blog {
+  max-width: 100%;
+  max-height: 656px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 31px 0 31px 20px;
+}
+
+.blog p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #e0e0e0;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.blog-content p {
+  padding-top: 21px;
+  font-size: 24px;
+  line-height: 29px;
+  max-width: 178px;
+  color: #333333;
+}
+
+.blog-content img {
+  align-items: flex-end;
+  max-height: 321px;
+  border-radius: 12px;
+}
+
+.blog-comment {
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 80%;
+  color: #828282;
+}
+
+.hobbies {
+  max-width: 100%;
+  max-height: 839px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-top: -248px;
+  padding: 22px;
+  margin-bottom: 24px;
+}
+
+.hobbies-header {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 26px;
+  color: #4f4f4f;
+}
+
+.hobby {
+  display: flex;
+  flex-direction: column;
+}
+
+.hobby img {
+  max-width: 379px;
+  border-radius: 12px;
+  margin-bottom: 26px;
+  max-height: 139px;
+}
+
+.hobby-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.hobby-dis {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  margin-bottom: 32px;
+}
+
+.experience {
+  max-width: 100%;
+  max-height: 590px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 31px;
+  margin-bottom: 44px;
+}
+
+.experience-header {
+  font-size: 24px;
+  line-height: 29px;
+  color: #4f4f4f;
+  margin-bottom: 44px;
+}
+
+.exp {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  margin-bottom: 76px;
+}
+
+.exp img {
+  max-width: 190px;
+  max-height: 84px;
+}
+
+.exp-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 387px;
+}
+
+.exp-period {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-bottom: 12px;
+}
+
+.exp-stack {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 33px;
+}
+
+.exp-description {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+
+.self-projects {
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  padding: 22px;
+  margin-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-count {
+  font-size: 18px;
+  line-height: 22px;
+  color: #4f4f4f;
+  margin-bottom: 16px;
+}
+
+.projects-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  column-gap: 16px;
+}
+
+.projects-type-name {
+  cursor: pointer;
+  padding: 8px 22px;
+  border: 1px solid #4f4f4f;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.projects-type-name:hover {
+  background-color: #2f80ed;
+  color: #ffffff;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 19px;
+  max-width: 330px;
+  align-self: center;
+}
+
+.project img {
+  max-width: 292px;
+  max-height: 217px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.project :nth-child(2) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 22px;
+  color: #4f4f4f;
+}
+
+.project :nth-child(3) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 18px;
+  color: #333333;
+}
+
+.project :nth-child(4) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 41px;
+  color: #828282;
+}
+
+.btns :nth-child(1) {
+  padding: 13px 40px;
+  background-color: #2f80ed;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btns :nth-child(2) {
+  border: 1px solid #2f80ed;
+  border-radius: 12px;
+  padding: 12px 40px;
+  cursor: pointer;
+}
+
+#footer {
+  padding-top: 48px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #bdbdbd;
+  text-align: center;
+  margin-bottom: 24px;
+  margin-top: auto;
+}
+
+@media (max-width: 1500px) {
+  body {
+    margin: 50px 9.3%;
+  }
+}
+
+@media (max-width: 1300px) {
+  body {
+    margin: 40px 4.3%;
+  }
+}
+
+@media (max-width: 1150px) {
+  body {
+    margin: 50px 0.5%;
+  }
+}
+
+@media (max-width: 1100px) {
+  body {
+    margin: 50px 0.5%;
+  }
+
+  .self-skills {
+    display: flex;
+    grid-template-columns: 0;
+    flex-direction: column;
+    /* display: grid; */
+    /* grid-template-columns: 40% 57%;
+    grid-template-rows: 1fr 1fr;*/
+    /* grid-row: 2; */
+    row-gap: 42px;
+    /* column-gap: 35px; */
+  }
+
+  .blog {
+    margin-bottom: 42px;
+  }
+
+  .hobbies {
+    margin-top: 0;
+  }
+
+  .projects {
+    flex-direction: column;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 100px;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .self-info {
+    flex-direction: column;
+  }
+  .self-contacts {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .blog-content {
+    flex-direction: column;
+  }
+
+  .experience {
+    max-height: 740px;
+  }
+
+  .exp {
+    flex-direction: column;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+  }
+}
+
+@media (max-width: 370px) {
+  .projects-type {
+    flex-direction: column;
+  }
+
+  .projects-type-name {
+    margin-bottom: 10px;
+  }
+}
